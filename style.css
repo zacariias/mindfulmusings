@@ -1,0 +1,51 @@
+@media (max-width: 1080px) {
+  ul#nav {
+    display: none !important;
+  }
+  h1 {
+    font-size: 84px !important;
+  }
+  p {
+    font-size: 40px !important;
+  }
+  div.section {
+    left: 10% !important;
+    max-width: 80% !important;
+  }
+}
+
+* {
+  font-family: 'Gentium Book Basic', serif;
+  color: #413623;
+}
+
+h1 {
+  font-size: 44px;
+  font-weight: 400;
+}
+
+div.section {
+  display: inline-block;
+  position: relative;
+  left: 30%;
+  margin: 1% 0 30% 0;
+}
+
+ul#nav {
+  left: 20px;
+  list-style: none;
+  position: fixed;
+  top: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+#nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#nav a:hover, #nav .current a {
+  color: #bc0000;
+}
